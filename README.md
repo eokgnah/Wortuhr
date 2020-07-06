@@ -6,6 +6,8 @@
 * WLAN Manager (192.168.4.1)
 * Webinterface
 
+# FILES
+
 - Wortuhr-20200706-DE.ino.d1.bin  
 Deutsches Layout  
 
@@ -15,8 +17,9 @@ Schweizer (Berndeutsch) Layout
 - Wortuhr-MultiLanguage-Laser-Klebevorlage-25x25-DE-CH-HR.svg  
 Buchstaben und LED-Verlegung und Nummerierung
 
-Changelog:  
+# Changelog  
 V20200706 - Diverse Bugfixes
 
+# Flashing
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
 
