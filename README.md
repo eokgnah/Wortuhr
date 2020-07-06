@@ -6,4 +6,6 @@
 * WLAN Manager (192.168.4.1)
 * Webinterface
 
+V20200706 - Diverse Bugfixes
+
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
