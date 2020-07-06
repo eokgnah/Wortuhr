@@ -14,3 +14,4 @@ Changelog:
 V20200706 - Diverse Bugfixes
 
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
+
