@@ -8,10 +8,10 @@
 
 # FILES
 
-- Wortuhr-20200706-DE.ino.d1.bin  
+- Wortuhr-*-DE.ino.d1.bin  
 Deutsches Layout  
 
-- Wortuhr-20200706-CH.ino.d1.bin  
+- Wortuhr-*-CH.ino.d1.bin  
 Schweizer (Berndeutsch) Layout  
 
 - Wortuhr-MultiLanguage-Laser-Klebevorlage-25x25-DE-CH-HR.svg  
