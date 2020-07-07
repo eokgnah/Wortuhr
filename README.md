@@ -18,7 +18,8 @@ Schweizer (Berndeutsch) Layout
 Buchstaben und LED-Verlegung und Nummerierung
 
 # Changelog  
-V20200706 - Diverse Bugfixes
+V20200706 - Diverse Bugfixes  
+V20200707 - Diverse Bugfixes - Farbfeld auf 380px  
 
 # Flashing
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
