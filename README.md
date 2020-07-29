@@ -18,12 +18,12 @@ Schweizer (Berndeutsch) Layout
 Buchstaben und LED-Verlegung und Nummerierung
 
 # Changelog  
-V20200729 - added Firmware Upload Over The Air
-V20200722 - same basefile for all - different configs for languages
+V20200729 - added Firmware Upload Over The Air  
+V20200722 - same basefile for all - different configs for languages  
 V20200706 - Diverse Bugfixes  
 V20200707 - Diverse Bugfixes - Farbfeld auf 380px  
 V20200708 - kompletter rewrite der eeprom routinen - div bugfixes  
 
-# Flashing
+# Flashing (obsolete with newer firmware)
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
 
