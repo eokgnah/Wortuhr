@@ -21,3 +21,9 @@ V20200706 - Diverse Bugfixes
 # Flashing (obsolete with firmware v20200729 and newer)
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
 
+# Pics
+<img src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Platine.jpeg>  
+
+<img src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Bau.jpeg>  
+
+
