@@ -22,8 +22,8 @@ V20200706 - Diverse Bugfixes
 <img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
 
 # Pics
-<img src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Platine.jpeg>  
+<img width=640 src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Platine.jpeg>  
 
-<img src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Bau.jpeg>  
+<img width=640 src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Bau.jpeg>  
 
 
