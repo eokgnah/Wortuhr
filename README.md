@@ -1,7 +1,10 @@
 # Wortuhr
 
+* Deutsch
+* Bernerdeutsch
+* Ungarisch
 * ESP8266 D1 Mini
-* WS2812 114LED (on Pin D1 / IO5)
+* WS2812 114x LED-Strip (on Pin D1 / IO5)
 * NTP
 * initial WLAN Manager (192.168.4.1)
 * Webinterface
