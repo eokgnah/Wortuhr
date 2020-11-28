@@ -12,7 +12,7 @@
 * mDNS http://wortuhr.local
 
 # Changelog  
-V20201128 - Anpassungen Ungarisches Zifferblatt und Farbauswahlfeld vergrößert
+V20201128 - Anpassungen Ungarisches Zifferblatt und Farbauswahlfeld vergrößert  
 V20200801 - mDNS Name kann geändert werden, Helligkeit entfernt (geht über RGB Auswahl), Anzeige aktuelle Firmware auf Debug-Seite.   
 V20200729 - added Firmware Upload Over The Air and http://wortuhr.local DNS   
 V20200722 - same basefile for all - different configs for languages  
