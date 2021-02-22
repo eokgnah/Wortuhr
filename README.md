@@ -11,7 +11,8 @@
 * OTA Firmware Uodates
 * mDNS http://wortuhr.local
 
-# Changelog  
+# Changelog
+V20210222 - Reset-Knopf für Wlan-Logindaten eingebaut, Typos HU gefixt
 V20201128 - Anpassungen Ungarisches Zifferblatt und Farbauswahlfeld vergrößert  
 V20200801 - mDNS Name kann geändert werden, Helligkeit entfernt (geht über RGB Auswahl), Anzeige aktuelle Firmware auf Debug-Seite.   
 V20200729 - added Firmware Upload Over The Air and http://wortuhr.local DNS   
