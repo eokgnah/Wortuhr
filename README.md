@@ -12,8 +12,9 @@
 * mDNS http://wortuhr.local
 
 # Changelog
-V20210410 - Speed und Farben können nun direkt per Zahlenwert gesetzt werden
-V20210222 - Reset-Knopf für Wlan-Logindaten eingebaut, Typos HU gefixt
+V20210411 - alles auf eigene Einstiegsseite umgebaut    
+V20210410 - Speed und Farben können nun direkt per Zahlenwert gesetzt werden  
+V20210222 - Reset-Knopf für Wlan-Logindaten eingebaut, Typos HU gefixt  
 V20201128 - Anpassungen Ungarisches Zifferblatt und Farbauswahlfeld vergrößert  
 V20200801 - mDNS Name kann geändert werden, Helligkeit entfernt (geht über RGB Auswahl), Anzeige aktuelle Firmware auf Debug-Seite.   
 V20200729 - added Firmware Upload Over The Air and http://wortuhr.local DNS   
