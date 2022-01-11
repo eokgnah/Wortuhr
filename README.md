@@ -13,8 +13,8 @@
 * mDNS http://wortuhr.local
 
 # Changelog
-v20220111 - hu bugfixes und code aufräumen
-v20211130 - kompletter REWRITE wegen wfi-loss Problemen
+v20220111 - hu bugfixes und code aufräumen  
+v20211130 - kompletter REWRITE wegen wfi-loss Problemen  
 V20210411 - alles auf eigene Einstiegsseite umgebaut    
 V20210410 - Speed und Farben können nun direkt per Zahlenwert gesetzt werden  
 V20210222 - Reset-Knopf für Wlan-Logindaten eingebaut, Typos HU gefixt  
