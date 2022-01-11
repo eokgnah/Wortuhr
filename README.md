@@ -3,15 +3,17 @@
 * Deutsch
 * Bernerdeutsch
 * Ungarisch
+* Englisch
 * ESP8266 D1 Mini
 * WS2812 114x LED-Strip (on Pin D1 / IO5)
 * NTP
 * initial WLAN Manager (192.168.4.1)
 * Webinterface
-* OTA Firmware Uodates
+* OTA Firmware Updates http://wortuhr.local/update
 * mDNS http://wortuhr.local
 
 # Changelog
+v20220111 - hu bugfixes und code aufräumen
 v20211130 - kompletter REWRITE wegen wfi-loss Problemen
 V20210411 - alles auf eigene Einstiegsseite umgebaut    
 V20210410 - Speed und Farben können nun direkt per Zahlenwert gesetzt werden  
