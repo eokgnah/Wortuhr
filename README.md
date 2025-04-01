@@ -13,7 +13,7 @@
 * mDNS http://wortuhr.local
 
 # Changelog
-v20250401 - Automatische Sommer/Winterzeitumstellung  
+v20250401 - Automatische Sommer/Winterzeitumstellung - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt !
 v20220111 - hu bugfixes und code aufräumen  
 v20211130 - kompletter REWRITE wegen wfi-loss Problemen  
 V20210411 - alles auf eigene Einstiegsseite umgebaut    
