@@ -5,7 +5,7 @@
 * Ungarisch
 * Englisch
 * ESP8266 D1 Mini
-* WS2812 114x LED-Strip (on Pin D1 / IO5)
+* WS2812 114x LED(W)-Strip (on Pin D1 / IO5)
 * NTP
 * initial WLAN Manager (192.168.4.1)
 * Webinterface
@@ -13,6 +13,7 @@
 * mDNS http://wortuhr.local
 
 # Changelog
+v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden
 v20250401 - Automatische Sommer/Winterzeitumstellung - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt !
 v20220111 - hu bugfixes und code aufräumen  
 v20211130 - kompletter REWRITE wegen wfi-loss Problemen  
