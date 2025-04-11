@@ -30,11 +30,11 @@ V20200707 - Diverse Bugfixes - Farbfeld auf 380px
 V20200706 - Diverse Bugfixes  
 
 # Flashing (obsolete with firmware v20200729 and newer)
-<img src=https://github.com/eokgnah/Wortuhr/blob/master/Flash.png>
+<img src=https://github.com/eokgnah/Wortuhr/blob/master/bilder/Flash.png>
 
 # Pics
-<img width=640 src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Platine.jpeg>  
+<img width=640 src=https://github.com/eokgnah/Wortuhr/blob/master/bilder/Wortuhr-Platine.jpeg>  
 
-<img width=640 src=https://github.com/eokgnah/Wortuhr/blob/master/Wortuhr-Bau.jpeg>  
+<img width=640 src=https://github.com/eokgnah/Wortuhr/blob/master/bilder/Wortuhr-Bau.jpeg>  
 
 
