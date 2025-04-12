@@ -1,5 +1,5 @@
 {
   "version": "Wortuhr_20250413",
-  "firmware_url": "https://raw.githubusercontent.com/eokgnah/Wortuhr/master/Wortuhr_20250411.ino.bin",
+  "firmware_url": "https://github.com/eokgnah/Wortuhr/releases/download/v20250411/Wortuhr_20250411.ino.bin",
   "release_notes": "Multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden"
 }
