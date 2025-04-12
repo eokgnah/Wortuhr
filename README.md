@@ -13,7 +13,7 @@
 * mDNS http://wortuhr.local
 
 # Changelog
-v20250411 - multi led strip, multi language  
+v20250411 - multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. 
 v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden  
 v20250401 - Automatische Sommer/Winterzeitumstellung - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt !  
 v20220111 - hu bugfixes und code aufräumen  
