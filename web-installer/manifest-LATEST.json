@@ -7,7 +7,7 @@
                         "chipFamily": "ESP8266",
                         "parts":
                         [
-                        { "path": "../Wortuhr-20250412.bin", "offset": 0 }
+                        { "path": "../Wortuhr-20250412.ino.bin", "offset": 0 }
                         ]
                 }
         ]
