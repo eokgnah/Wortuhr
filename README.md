@@ -1,6 +1,7 @@
 # Wortuhr
 
 WEB Installer: https://eokgnah.github.io/Wortuhr/web-installer/  
+Github Repo: https://github.com/eokgnah/Wortuhr/  
 
 * Multi Languages: Deutsch, Bernerdeutsch, Ungarisch, Englisch
 * ESP8266 D1 Mini
