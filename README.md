@@ -11,7 +11,7 @@ Github Repo: <a href="https://github.com/eokgnah/Wortuhr/"> https://github.com/e
 * initial WLAN Manager (Wortuhr-install / 192.168.4.1)
 * one Klick Firmware Update
 * Webinterface
-* mDNS http://wortuhr.local
+* mDNS <a href="http://wortuhr.local"> http://wortuhr.local </a>
 
 # Changelog
 v20250412 - Online-Update Check mit 'one Klick Firmware Update'  
