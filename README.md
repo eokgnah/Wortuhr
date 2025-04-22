@@ -12,6 +12,8 @@
 * OTA Firmware Updates http://wortuhr.local/update
 * mDNS http://wortuhr.local
 
+WEB Installer: https://eokgnah.github.io/Wortuhr/web-installer/  
+
 # Changelog
 v20250412 - Online-Update Check mit 'one Klick Update'  
 v20250411 - multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. 
