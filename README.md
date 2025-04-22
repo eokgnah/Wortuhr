@@ -1,21 +1,19 @@
 # Wortuhr
 
-* Deutsch
-* Bernerdeutsch
-* Ungarisch
-* Englisch
-* ESP8266 D1 Mini
-* WS2812 114x LED(W)-Strip (on Pin D1 / IO5)
-* NTP
-* initial WLAN Manager (192.168.4.1)
-* Webinterface
-* OTA Firmware Updates http://wortuhr.local/update
-* mDNS http://wortuhr.local
-
 WEB Installer: https://eokgnah.github.io/Wortuhr/web-installer/  
 
+* Multi Languages: Deutsch, Bernerdeutsch, Ungarisch, Englisch
+* ESP8266 D1 Mini
+* WS2812 or SK6812 114x LED(W)-Strip (on Pin D1 / IO5)
+* NTP sync.
+* automatic Daylight Saving Time
+* initial WLAN Manager (Wortuhr-install / 192.168.4.1)
+* one Klick Firmware Update
+* Webinterface
+* mDNS http://wortuhr.local
+
 # Changelog
-v20250412 - Online-Update Check mit 'one Klick Update'  
+v20250412 - Online-Update Check mit 'one Klick Firmware Update'  
 v20250411 - multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. 
 v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden  
 v20250401 - Automatische Sommer/Winterzeitumstellung - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt !  
@@ -31,9 +29,6 @@ V20200722 - same basefile for all - different configs for languages
 V20200708 - kompletter rewrite der eeprom routinen - div bugfixes  
 V20200707 - Diverse Bugfixes - Farbfeld auf 380px  
 V20200706 - Diverse Bugfixes  
-
-# Flashing (obsolete with firmware v20200729 and newer)
-<img src="https://eokgnah.github.io/Wortuhr/bilder/Flash.png">
 
 # Pics
 <img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-Platine.jpeg">  
