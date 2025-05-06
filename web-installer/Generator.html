@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wortuhr Generator</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+    svg {
+      border: 1px solid #000;
+      margin-bottom: 1rem;
+    }
+    button, input, textarea, select {
+      padding: 0.5rem;
+      margin: 0.2rem;
+      font-size: 1rem;
+    }
+    .controls {
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    textarea {
+      width: 120px;
+      height: 200px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="controls">
+	  <label><br><br></label>
+	  <label><h1>Passend für Bänder mit 60 LED pro Meter</h1></label>
+    <label>Frontscheibe (mm x mm): <input type="number" id="inputGroesse" value="230" /></label>
+    <label>Schriftgröße (mm): <input type="number" id="inputSchrift" value="14" /></label>
+    <label>Schriftart:
+      <select id="inputFont">
+        <option value="Arial" selected>Arial Bold</option>
+        <option value="Verdana">Verdana Bold</option>
+        <option value="Times New Roman">Times New Roman Bold</option>
+        <option value="Courier New">Courier New Bold</option>
+        <option value="monospace">Monospace Bold</option>
+        <option value="Comic Sans MS">Comic Sans MS Bold</option>
+      </select>
+    </label>
+    <label><br>Buchstabenblock (10 Zeilen, 11 Zeichen):</label>
+    <textarea id="inputRows">ESKISTAFÜNF
+ZEHNZWANZIG
+DREIVIERTEL
+VORFUNKNACH
+HALBAELFÜNF
+EINSXÄMZWEI
+DREIAUJVIER
+SECHSNLACHT
+SIEBENZWÖLF
+ZEHNEUNKUHR</textarea>
+    <button onclick="renderSVG()">Vorschau neu zeichnen</button>
+    <button onclick="exportSVG()">als SVG speichern</button>
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" id="svgCanvas"></svg>
+
+  <script type="application/javascript">
+    function renderSVG() {
+      const quadratGroesseMM = parseFloat(document.getElementById("inputGroesse").value);
+      const schriftgroesseMM = parseFloat(document.getElementById("inputSchrift").value);
+      const schriftart = document.getElementById("inputFont").value;
+      const svgGroesseCM = quadratGroesseMM / 10;
+
+      const rowsInput = document.getElementById("inputRows").value.trim().split("\n");
+      const rows = rowsInput.map(row => row.trim());
+
+      const svg = document.getElementById("svgCanvas");
+      svg.setAttribute("width", svgGroesseCM + "cm");
+      svg.setAttribute("height", svgGroesseCM + "cm");
+      svg.setAttribute("viewBox", `0 0 ${quadratGroesseMM} ${quadratGroesseMM}`);
+      svg.innerHTML = "";
+
+      const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      g.setAttribute("font-family", schriftart);
+      g.setAttribute("font-weight", "bold");
+      g.setAttribute("text-anchor", "middle");
+      g.setAttribute("dominant-baseline", "middle");
+      svg.appendChild(g);
+
+      const dx = 16.667;
+      const dy = 18.333;
+      const gridWidth = dx * 11;
+      const gridHeight = dy * 10;
+      const startX = (quadratGroesseMM - gridWidth) / 2;
+      const startY = (quadratGroesseMM - gridHeight) / 2;
+
+      for (let row = 0; row < 10; row++) {
+        for (let col = 0; col < 11; col++) {
+          const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+          const x = startX + col * dx + dx / 2;
+          const y = startY + row * dy + dy / 2;
+          text.setAttribute("x", x.toFixed(3));
+          text.setAttribute("y", y.toFixed(3));
+          text.setAttribute("font-size", schriftgroesseMM);
+          text.textContent = rows[row][col];
+          g.appendChild(text);
+        }
+      }
+
+      const circleRadius = 1.5;
+      const spacing = (1000 / 60) * 12;
+
+      const centerX = quadratGroesseMM / 2;
+      const centerY = quadratGroesseMM / 2;
+      const offsetX = spacing / 2;
+      const offsetY = spacing / 2;
+
+      const positions = [
+        { cx: centerX - offsetX, cy: centerY - offsetY },
+        { cx: centerX + offsetX, cy: centerY - offsetY },
+        { cx: centerX - offsetX, cy: centerY + offsetY },
+        { cx: centerX + offsetX, cy: centerY + offsetY }
+      ];
+
+      positions.forEach(pos => {
+        const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+        circle.setAttribute("cx", pos.cx.toFixed(3));
+        circle.setAttribute("cy", pos.cy.toFixed(3));
+        circle.setAttribute("r", circleRadius.toString());
+        circle.setAttribute("fill", "darkgrey");
+        g.appendChild(circle);
+      });
+    }
+
+    function exportSVG() {
+      const svgElement = document.getElementById('svgCanvas');
+      const serializer = new XMLSerializer();
+      const source = serializer.serializeToString(svgElement);
+      const blob = new Blob([source], { type: 'image/svg+xml;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'exportiertes_bild.svg';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    }
+
+    window.onload = renderSVG;
+  </script>
+</body>
+</html>
+
