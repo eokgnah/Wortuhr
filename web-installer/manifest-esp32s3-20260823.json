@@ -7,7 +7,7 @@
       "chipFamily": "ESP32-S3",
       "parts": [
         {
-          "path": "../firmware/Wortuhr_ESP32_20260823.ino.merged.bin",
+          "path": "../Wortuhr_ESP32_20260823.ino.merged.bin",
           "offset": 0
         }
       ]
