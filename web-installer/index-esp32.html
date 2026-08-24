@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Wortuhr ESP32-S3 Web Installer</title>
+  <script type="module"
+    src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module">
+  </script>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color-scheme:dark}
+    body{margin:0;background:#0d1117;color:#e6edf3}
+    main{max-width:760px;margin:auto;padding:28px 18px 48px}
+    .card,.hero{background:#161b22;border:1px solid #30363d;border-radius:16px;padding:20px;margin-bottom:16px}
+    h1{margin:0 0 8px;font-size:clamp(1.8rem,5vw,2.7rem)}
+    h2{margin-top:0}
+    p,li{line-height:1.55}
+    .ok{color:#3fb950;font-weight:700}
+    .warn{color:#d29922}
+    code{background:#0d1117;border:1px solid #30363d;border-radius:6px;padding:2px 5px}
+    .btn{display:inline-block;text-decoration:none;background:#21262d;color:#e6edf3;border:1px solid #30363d;border-radius:10px;padding:10px 14px;font-weight:650}
+    .buttons{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:16px}
+  </style>
+</head>
+<body>
+<main>
+  <section class="hero">
+    <h1>Wortuhr ESP32-S3 Web Installer</h1>
+    <p>Erstinstallation für ESP32-S3 Super Mini mit <strong>4 MB Flash + 2 MB PSRAM</strong>.</p>
+  </section>
+
+  <section class="card">
+    <h2>Firmware</h2>
+    <p><strong>Wortuhr_ESP32_20260823</strong></p>
+    <p class="ok">Empfohlenes Build: 4MB Flash · Minimal SPIFFS · OTA-fähig · QSPI PSRAM</p>
+    <div class="buttons">
+      <esp-web-install-button manifest="./manifest.json">
+        <button slot="activate">ESP32-S3 installieren</button>
+        <span slot="unsupported">Bitte Chrome/Edge oder einen anderen Browser mit Web Serial verwenden.</span>
+      </esp-web-install-button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Wichtig</h2>
+    <p>Für die <strong>Erstinstallation</strong> wird die <code>.merged.bin</code> verwendet. Sie enthält Bootloader, Partitionstabelle und Anwendung in einem einzigen Image.</p>
+    <p class="warn">Wenn bereits eine andere Firmware/Partitionierung auf dem Board ist, im Installer möglichst <strong>Erase device</strong> wählen.</p>
+  </section>
+
+  <section class="card">
+    <h2>Benötigte Datei</h2>
+    <p>Lege die exportierte Datei</p>
+    <p><code>Wortuhr_ESP32_20260823.ino.merged.bin</code></p>
+    <p>in den Ordner <code>firmware/</code> dieses Pakets bzw. an dieselbe Stelle im GitHub-Repository.</p>
+  </section>
+</main>
+</body>
+</html>
