@@ -1,0 +1,16 @@
+{
+  "name": "Wortuhr ESP32-S3",
+  "version": "20260823",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        {
+          "path": "../Wortuhr_ESP32_20260823.ino.merged.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
