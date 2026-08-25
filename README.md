@@ -37,4 +37,10 @@ V20200706 - Diverse Bugfixes
 
 <img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-Bau.jpeg">  
 
+<img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-01.JPG">  
 
+<img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-02.JPG">  
+
+<img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-03.JPG">  
+
+<img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-04.JPG">  
