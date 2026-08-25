@@ -15,26 +15,25 @@ Zifferblatt- / Faceplate-Generator: <a href="https://eokgnah.github.io/Wortuhr/w
 * mDNS <a href="http://wortuhr.local"> http://wortuhr.local </a>
 
 # Changelog
-v20260824 - ESP8266 ! EOL !
-v20260824 - ESP8266 SK6812 nutzt nun alle 4 bytes RGBW um bei Bedarf die Helligkeit noch weiter zu boosten.
-v20260823 - ESP32 - Zukünftig geht es hier weiter
-v20260823 - ESP8266 wird nicht mehr lange weiterentwickelt - one click wegen Speicherproblemen wieder entfernt - neue Webseite - Portierung auf esp32-S3 begonnen
-v20250412 - Online-Update Check mit 'one Klick Firmware Update'  
-v20250411 - multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. 
-v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden  
-v20250401 - Automatische Sommer/Winterzeitumstellung - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt !  
-v20220111 - hu bugfixes und code aufräumen  
-v20211130 - kompletter REWRITE wegen wfi-loss Problemen  
-V20210411 - alles auf eigene Einstiegsseite umgebaut    
-V20210410 - Speed und Farben können nun direkt per Zahlenwert gesetzt werden  
-V20210222 - Reset-Knopf für Wlan-Logindaten eingebaut, Typos HU gefixt  
-V20201128 - Anpassungen Ungarisches Zifferblatt und Farbauswahlfeld vergrößert  
-V20200801 - mDNS Name kann geändert werden, Helligkeit entfernt (geht über RGB Auswahl), Anzeige aktuelle Firmware auf Debug-Seite.   
-V20200729 - added Firmware Upload Over The Air and http://wortuhr.local DNS   
-V20200722 - same basefile for all - different configs for languages  
-V20200708 - kompletter rewrite der eeprom routinen - div bugfixes  
-V20200707 - Diverse Bugfixes - Farbfeld auf 380px  
-V20200706 - Diverse Bugfixes  
+* v20260824 - ESP8266 SK6812 nutzt nun alle 4 bytes RGBW um bei Bedarf die Helligkeit noch weiter zu boosten - End of Life
+* v20260823 - ESP32 - Zukünftig geht es hier weiter
+* v20260823 - ESP8266 wird nicht mehr lange weiterentwickelt - one click wegen Speicherproblemen wieder entfernt - neue Webseite - Portierung auf esp32-S3 begonnen
+* v20250412 - Online-Update Check mit 'one Klick Firmware Update'  
+* v20250411 - multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. 
+* v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden  
+* v20250401 - Automatische Sommer/Winterzeitumstellung - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt !  
+* v20220111 - hu bugfixes und code aufräumen  
+* v20211130 - kompletter REWRITE wegen wfi-loss Problemen  
+* V20210411 - alles auf eigene Einstiegsseite umgebaut    
+* V20210410 - Speed und Farben können nun direkt per Zahlenwert gesetzt werden  
+* V20210222 - Reset-Knopf für Wlan-Logindaten eingebaut, Typos HU gefixt  
+* V20201128 - Anpassungen Ungarisches Zifferblatt und Farbauswahlfeld vergrößert  
+* V20200801 - mDNS Name kann geändert werden, Helligkeit entfernt (geht über RGB Auswahl), Anzeige aktuelle Firmware auf Debug-Seite.   
+* V20200729 - added Firmware Upload Over The Air and http://wortuhr.local DNS   
+* V20200722 - same basefile for all - different configs for languages  
+* V20200708 - kompletter rewrite der eeprom routinen - div bugfixes  
+* V20200707 - Diverse Bugfixes - Farbfeld auf 380px  
+* V20200706 - Diverse Bugfixes  
 
 # Pics
 <img width=640 src="https://eokgnah.github.io/Wortuhr/bilder/Wortuhr-Platine.jpeg">  
