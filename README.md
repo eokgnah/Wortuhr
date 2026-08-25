@@ -15,6 +15,10 @@ Zifferblatt- / Faceplate-Generator: <a href="https://eokgnah.github.io/Wortuhr/w
 * mDNS <a href="http://wortuhr.local"> http://wortuhr.local </a>
 
 # Changelog
+v20260824 - ESP8266 ! EOL !
+v20260824 - ESP8266 SK6812 nutzt nun alle 4 bytes RGBW um bei Bedarf die Helligkeit noch weiter zu boosten.
+v20260823 - ESP32 - Zukünftig geht es hier weiter
+v20260823 - ESP8266 wird nicht mehr lange weiterentwickelt - one click wegen Speicherproblemen wieder entfernt - neue Webseite - Portierung auf esp32-S3 begonnen
 v20250412 - Online-Update Check mit 'one Klick Firmware Update'  
 v20250411 - multi led strip, multi language - ! Achtung alle Eintellungen werden beim aufspielen auf Default zurückgesetzt ! Alle Settings innitial neu setzen. 
 v20250410 - in der Weboberfläche kann von RGB auf RGBW Strips gewechselt werden  
