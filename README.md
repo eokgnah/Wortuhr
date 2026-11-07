@@ -15,6 +15,7 @@ Zifferblatt- / Faceplate-Generator: <a href="https://eokgnah.github.io/Wortuhr/w
 * mDNS <a href="http://wortuhr.local"> http://wortuhr.local </a>
 
 # Changelog
+* v20261107 - ESP8266 div. bugfixes
 * v20260824 - ESP8266 SK6812 nutzt nun alle 4 bytes RGBW um bei Bedarf die Helligkeit noch weiter zu boosten - End of Life
 * v20260823 - ESP32 - Zukünftig geht es hier weiter
 * v20260823 - ESP8266 wird nicht mehr lange weiterentwickelt - one click wegen Speicherproblemen wieder entfernt - neue Webseite - Portierung auf esp32-S3 begonnen
