@@ -1,0 +1,14 @@
+{
+        "name": "ESP8266 Wortuhr - v20261107",
+        "new_install_prompt_erase": true,
+        "builds":
+        [
+                {
+                        "chipFamily": "ESP8266",
+                        "parts":
+                        [
+                        { "path": "../Wortuhr_20261107.ino.bin", "offset": 0 }
+                        ]
+                }
+        ]
+}
